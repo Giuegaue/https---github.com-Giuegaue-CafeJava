@@ -3,9 +3,9 @@ public class CafeJava {
         // APP VARIABLES
         // Lines of text that will appear in the app. 
         String generalGreeting = "Welcome to Cafe Java, ";
-        String pendingMessage = ", your order will be ready shortly";
-        String readyMessage = ", your order is ready";
-        String displayTotalMessage = "Your total is $";
+        String pendingMessage = ". Your order will be ready shortly";
+        String readyMessage = ". Your order is ready";
+        String displayTotalMessage = ". Your total is $";
         
         // Menu variables (add yours below)
         double mochaPrice = 3.5;
@@ -43,7 +43,7 @@ public class CafeJava {
         else{
             System.out.println(pendingMessage);
         }
-        System.out.println("We are very sorry"+ customer3 + ", your new total is $" + sumJimmy);
+        System.out.println("We are very sorry "+ customer3 + ", your new total is $" + sumJimmy);
         // Displays "Welcome to Cafe Java, Cindhuri"
     	// ** Your customer interaction print statements will go here ** //
     }
