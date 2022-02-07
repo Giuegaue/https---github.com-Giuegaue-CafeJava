@@ -10,7 +10,7 @@ public class CafeJava {
         // Menu variables (add yours below)
         double mochaPrice = 3.5;
         double dripCoffeePrice = 1.5;
-        double lattePrice = 70;
+        double lattePrice = 7.0;
         double cappuccinoPrice = 3;
         
     
